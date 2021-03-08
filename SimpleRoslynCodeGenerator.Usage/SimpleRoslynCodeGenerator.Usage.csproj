@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <StartupObject>SimpleRoslynCodeGenerator.Usage.Program</StartupObject>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\SimpleRoslynCodeGenerator.Core\SimpleRoslynCodeGenerator.Core.csproj">
+            <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+            <OutputItemType>Analyzer</OutputItemType>
+        </ProjectReference>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRoslynCodeGenerator.Usage", "SimpleRoslynCodeGenerator.Usage\SimpleRoslynCodeGenerator.Usage.csproj", "{57BCA5AE-2627-4AB3-9242-600CFF6136BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRoslynCodeGenerator.Core", "SimpleRoslynCodeGenerator.Core\SimpleRoslynCodeGenerator.Core.csproj", "{DF15DD6F-6ACA-4704-B0B4-F2B7ED684788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57BCA5AE-2627-4AB3-9242-600CFF6136BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BCA5AE-2627-4AB3-9242-600CFF6136BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BCA5AE-2627-4AB3-9242-600CFF6136BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BCA5AE-2627-4AB3-9242-600CFF6136BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF15DD6F-6ACA-4704-B0B4-F2B7ED684788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF15DD6F-6ACA-4704-B0B4-F2B7ED684788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF15DD6F-6ACA-4704-B0B4-F2B7ED684788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF15DD6F-6ACA-4704-B0B4-F2B7ED684788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {025F184D-372A-45C1-A105-74BAED32A494}
+	EndGlobalSection
+EndGlobal
